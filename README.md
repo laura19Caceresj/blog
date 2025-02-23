@@ -62,30 +62,28 @@ Paso a paso para ejecutar el proyecto
 
  1. Los servicios que ya se crearon se van a consumir
     ## Get
- - Endpoint para Gestion de Autores
+    Endpoint para Gestion de Autores
     Detalle: Este endpoint es usuado para buscar un autor por id del autor pasando por el id del autor
     Enpoint: url/{id}
     Metodo HTTP: get
     Parametros: el parametro en la uot {id} es el id del autor a buscar
     Direccion: http://127.0.0.1:8000/api/autores/listar_id/1
-    Ejemplo: como se visualiza
 
- - Endpoint para Gestion de Publicaciones
+    Endpoint para Gestion de Publicaciones
     Detalle: Este endpoint es usuado para buscar una publicacion por id del la publicacion pasando por el id de la publicacion
     Enpoint: url/{id}
     Metodo HTTP: get
     Parametros: el parametro en la uot {id} es el id de la publicacion a buscar
     Direccion: http://127.0.0.1:8000/api/publicacion/listar_id/1
-    Ejemplo: como se visualiza
 
-   - Endpoint para Listar Autores
+    Endpoint para Listar Autores
     Detalle: Este endpoint es usuado para listar todos los autores 
     Enpoint: url/listar
     Metodo HTTP: get
     Parametros: el parametro en la uot listar es el listar para listar todos los autores
     Direccion:http://127.0.0.1:8000/api/autores/listar
 
-  - Endpoint para Listar Publicaciones
+    Endpoint para Listar Publicaciones
     Detalle: Este endpoint es usuado para listar todas las publicaciones 
     Enpoint: url/listar
     Metodo HTTP: get
@@ -94,7 +92,7 @@ Paso a paso para ejecutar el proyecto
 
     ## Post
 
-  - Endpoint para crear Autor
+    Endpoint para crear Autor
     Detalle: Este endpoint es usuado para crear un autor asignandole el nombre y apellido 
     Enpoint: http://127.0.0.1:8000/api/autores/crear
     Metodo HTTP: post
@@ -106,7 +104,7 @@ Paso a paso para ejecutar el proyecto
         "apellido": "perez"
     }
 
-     Endpoint para crear Publicaciobes
+    Endpoint para crear Publicaciobes
     Detalle: Este endpoint es usuado para crear publicaciones  asignandole el titulo, contenido, imagen 
     Enpoint: http://127.0.0.1:8000/api/publicaciones/crear
     Metodo HTTP: post
@@ -122,7 +120,7 @@ Paso a paso para ejecutar el proyecto
 
      ## Put
 
-  - Endpoint para Actualizar autores
+    Endpoint para Actualizar autores
     Detalle: Este endpoint es usuado para actualizar autores asignandole el nombre y apellido y modificando el campo que sea necesario
     Enpoint: http://127.0.0.1:8000/api/autores/actualizar/1
     Metodo HTTP: put
@@ -135,7 +133,7 @@ Paso a paso para ejecutar el proyecto
 
 
     
-  - Endpoint para Actualizar publicaciones
+    Endpoint para Actualizar publicaciones
     Detalle: Este endpoint es usuado para actualizar publicaciones asignandole el titulo, contenido, imagen y modificando el campo que sea necesario
     Enpoint: http://127.0.0.1:8000/api/publicaciones/actualizar/1
     Metodo HTTP: put
@@ -150,14 +148,14 @@ Paso a paso para ejecutar el proyecto
 
      ## Delete
 
-  - Endpoint para eliminar autores
+    Endpoint para eliminar autores
     Detalle: Este endpoint es usuado para eliminar autores asignamos el id del autor que se desea eliminar {1}
     Enpoint: http://127.0.0.1:8000/api/autores/eliminar/1
     Metodo HTTP: Delete
     Parametros:El parametro de entrada es un parametro de eliminacion por medio del id del autor 
    
 
-    - Endpoint para eliminar publicaciones
+    Endpoint para eliminar publicaciones
     Detalle: Este endpoint es usuado para eliminar publicaciones asignamos el id del publicaciones que se desea eliminar {1}
     Enpoint: http://127.0.0.1:8000/api/publicaciones/eliminar/1
     Metodo HTTP: Delete
