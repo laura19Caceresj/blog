@@ -2,7 +2,7 @@
 
 Guía para la ejecución del proyecto
 
-### Pre-requisitos 📋
+### Pre-requisitos
 
 A continuación, se detalla  se detalla los pre-requisitos necesarios para poner en marcha el proyecto
 
@@ -33,14 +33,14 @@ Paso a paso para ejecutar el proyecto
     composer install
     ```
  5. Buscar el archivo ".env" dentro del árbol del proyecto y cambiar valores de su Base de datos si lo requiere en las siguientes lineas o dejar por default para el motor MySQL.
-
+    ```
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=blog
     DB_USERNAME=root
     DB_PASSWORD=
-    
+    ```
  7. Iniciar en Xammp el motor de Base de datos MySQL y Apache.
  8. Ejecute las migraciones con el siguiente comando para crear la BD blog y las respectivas tablas con sus campos y relaciones
     ```
