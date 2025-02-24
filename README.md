@@ -22,13 +22,13 @@ Paso a paso para ejecutar el proyecto
     ```
     git clone https://github.com/laura19Caceresj/blog.git
     ```
- 4. Ingresa a la carpeta donde se descargó el repo en su entorno local
+ 2. Ingresa a la carpeta donde se descargó el repo en su entorno local
     ```
     cd repositorio
     ```
- 6. Abril el repo en Visual Studio Code
+ 3. Abril el repo en Visual Studio Code
     
- 5. Instalar las dependencias del proyecto, esto se hace abriendo una terminal en Visual Studio Code y ejecutando el comando
+ 4. Instalar las dependencias del proyecto, esto se hace abriendo una terminal en Visual Studio Code y ejecutando el comando
     ```
     composer install
     ```
@@ -41,16 +41,16 @@ Paso a paso para ejecutar el proyecto
     DB_USERNAME=root
     DB_PASSWORD=
     ```
- 7. Iniciar en Xammp el motor de Base de datos MySQL y Apache.
- 8. Ejecute las migraciones con el siguiente comando para crear la BD blog y las respectivas tablas con sus campos y relaciones
+ 6. Iniciar en Xammp el motor de Base de datos MySQL y Apache.
+ 7. Ejecute las migraciones con el siguiente comando para crear la BD blog y las respectivas tablas con sus campos y relaciones
     ```
     php artisan migrate
     ```
- 9. Inicialice el servidor local
+ 8. Inicialice el servidor local
     ```
     php artisan serve
     ```
- 10. Se inicia el servidor local y se puede visualizar en la siguiente dirección y su respectivo puerto:
+ 9. Se inicia el servidor local y se puede visualizar en la siguiente dirección y su respectivo puerto:
     ```
     http://127.0.0.1:8000
     ```
