@@ -53,41 +53,39 @@ Paso a paso para ejecutar el proyecto
  10. Se inicia el servidor local y se puede visualizar en la siguiente dirección y su respectivo puerto:
     ```
     http://127.0.0.1:8000
-
     ```
     
 ### Servicios api expuestos  
 
 Paso a paso para ejecutar el proyecto
-
- 1. Los servicios que ya se crearon se van a consumir
+Los servicios que ya se crearon se van a consumir
     ## Get
     Endpoint para Gestion de Autores
     Detalle: Este endpoint es usuado para buscar un autor por id del autor pasando por el id del autor
     Enpoint: url/{id}
     Metodo HTTP: get
-    Parametros: el parametro en la uot {id} es el id del autor a buscar
+    Parametros: el parametro en la url {id} es el id del autor a buscar
     Direccion: http://127.0.0.1:8000/api/autores/listar_id/1
 
     Endpoint para Gestion de Publicaciones
     Detalle: Este endpoint es usuado para buscar una publicacion por id del la publicacion pasando por el id de la publicacion
     Enpoint: url/{id}
     Metodo HTTP: get
-    Parametros: el parametro en la uot {id} es el id de la publicacion a buscar
+    Parametros: el parametro en la url {id} es el id de la publicacion a buscar
     Direccion: http://127.0.0.1:8000/api/publicacion/listar_id/1
 
     Endpoint para Listar Autores
     Detalle: Este endpoint es usuado para listar todos los autores 
     Enpoint: url/listar
     Metodo HTTP: get
-    Parametros: el parametro en la uot listar es el listar para listar todos los autores
+    Parametros: el parametro en la url listar es el listar para listar todos los autores
     Direccion:http://127.0.0.1:8000/api/autores/listar
 
     Endpoint para Listar Publicaciones
     Detalle: Este endpoint es usuado para listar todas las publicaciones 
     Enpoint: url/listar
     Metodo HTTP: get
-    Parametros: el parametro en la uot listar es el listar para listar todas las publicaciones 
+    Parametros: el parametro en la url listar es el listar para listar todas las publicaciones 
     Direccion:http://127.0.0.1:8000/api/publicaciones/listar
 
     ## Post
